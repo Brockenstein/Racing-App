@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [ "es2015", "dom" ],
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": false
+  },
+    "files": [
+        "main.ts",
+        "app/app.component.ts",
+        "app/race.service.ts",
+        "app/race.ts",
+        "app/races.component.ts"
+    ]
+}

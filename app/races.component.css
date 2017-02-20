@@ -1,0 +1,106 @@
+h2 {
+    color: #9397d8;
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: small;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #24262c;
+}
+
+.panel-body {
+    display: table;
+    padding: 0;
+}
+
+.photo {
+    float: left;
+    margin-right: 30px;
+}
+
+.race-info, tbody {
+    display: inline-block;
+}
+
+.race-info, .race-info tbody, .race-info tr, .race-info td {
+    width: 100%;
+}
+
+.race-info {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.race-info td:last-child {
+    padding: 0 20px;
+}
+
+.date, .price {
+    color: #9397d8;
+}
+
+.description {
+    color: #66d9f7;
+}
+
+button {
+    background: #fd79fc;
+    border-radius: 3px;
+    border: 0;
+    color: #ffffff;
+    width: 120px;
+}
+
+.button-cancel {
+    background: none;
+    border: 0;
+    color: #fd79fc;
+    text-decoration: underline;
+    width: 120px;
+}
+
+.status {
+    color: #fd79fc;
+    text-align: center;
+}
+
+.price-total {
+    background: #9179b7;
+    float: right;
+    margin: 30px 0;
+    padding: 20px 50px;
+    text-transform: uppercase;
+}
+
+.price-total h3 {
+    font-size: 18px;
+    margin-right: 60px;
+}
+
+.price-total p {
+    color: #362751;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.price-total h3, .price-total p {
+    display: inline-block;
+    margin: 0;
+}
